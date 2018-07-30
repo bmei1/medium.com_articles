@@ -16,7 +16,11 @@ class MediumSpider(scrapy.Spider):
     start_urls = ['https://medium.com/tag/data-science/latest']
 
     def __init__(self):
-        self.browser = webdriver.Chrome(executable_path="/Users/meibing/Desktop/search/ArticleSpider/chromedriver")
+        # self.browser = webdriver.Chrome(executable_path="/Users/meibing/Desktop/search/ArticleSpider/chromedriver")
+
+        service_args = ['--load-images=no', '--disk-cache=yes'] # load without image, use cache
+        self.browser = webdriver.PhantomJS(executable_path="/Users/meibing/Desktop/search/ArticleSpider/phantomjs",
+                                           service_args=service_args)
         super(MediumSpider, self).__init__()
         dispatcher.connect(self.spider_closed, signals.spider_closed)
 

@@ -8,9 +8,8 @@
   phantomjs://platform/console++.js:263 in error
 [ERROR - 2018-07-30T00:17:15.549Z] Session [e0a79130-938d-11e8-bc80-398eec596328] - page.onError - stack:
   tN (https://cdn-static-1.medium.com/_/fp/gen-js/main-base.bundle.B1GiwPttsH-nYBlFe_V2QA.[INFO  - 2018-07-30T00:22:08.835Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-8] - page.onError - msg: [LightStep:ERROR Sun Jul 29 2018 20:17:18 GMT-0400 (EDT)] Error in report: status code = 0 [object Object]
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-07-30T00:27:08.833Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ntomjs://platform/console++.js:263 in error
 [ERROR - 2018-07-30T00:17:18.572Z] Session [e0a79130-938d-11e8-bc80-398eec596328] - page.onError - stack:
   tN (https://cdn-static-1.medium.com/_/fp/gen-js/main-base.bundle.B1GiwPttsH-nYBlFe_V2QA.js:2265)
 

@@ -74,7 +74,8 @@ ITEM_PIPELINES = {
     # 'ArticleSpider.pipelines.JsonWithEncodingPipeline': 2,
     # 'ArticleSpider.pipelines.JsonExporterPipeline': 2,
     # 'ArticleSpider.pipelines.MysqlTwistedPipeline': 3,
-    'ArticleSpider.pipelines.MysqlPipeline': 2,
+    # 'ArticleSpider.pipelines.MysqlPipeline': 2,
+    'ArticleSpider.pipelines.ElasticsearchPipeline': 2,
 
 }
 

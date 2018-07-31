@@ -144,9 +144,9 @@ class JSPageMiddleware(object):
             import time
             time.sleep(2)
         if request.url == 'https://medium.com/tag/data-science/latest':
-            for i in range(5000):
+            for i in range(1):
                 spider.browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(2)
+                time.sleep(2.5)
 
         return HtmlResponse(url=spider.browser.current_url, body=spider.browser.page_source, \
                                 encoding="utf-8", request=request)

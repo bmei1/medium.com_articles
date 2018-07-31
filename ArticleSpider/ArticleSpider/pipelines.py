@@ -12,7 +12,8 @@ from scrapy.exporters import JsonItemExporter
 import MySQLdb
 import MySQLdb.cursors
 from twisted.enterprise import adbapi
-
+from ArticleSpider.models.es_types import ArticleType
+from elasticsearch_dsl.connections import connections
 
 
 class ArticlespiderPipeline(object):
@@ -58,6 +59,7 @@ class JsonExporterPipeline(object):
         self.exporter.export_item(item)
         return item
 
+
 class MysqlPipeline(object):
     def __init__(self):
         self.conn = MySQLdb.connect('localhost', 'root', '123456', 'article_spider', charset="utf8mb4", use_unicode=True)
@@ -72,6 +74,7 @@ class MysqlPipeline(object):
         self.cursor.execute(insert_sql, (item["title"], item["create_date"], item["url"], item["url_object_id"],
                                          item["author"], item["author_description"], item["applause"], item["content"]))
         self.conn.commit()
+
 
 class MysqlTwistedPipeline(object):
     def __init__(self, dbpool):
@@ -108,3 +111,14 @@ class MysqlTwistedPipeline(object):
         params = (item["title"], item["create_date"], item["url"], item["url_object_id"], \
                   item["author"], item["author_description"], item["applause"], item["content"])
         cursor.execute(insert_sql, params)
+
+
+class ElasticsearchPipeline(object):
+
+    # save data to ES
+    def process_item(self, item, spider):
+        # transfer data to ES format
+
+        item.save_to_es()
+
+        return item

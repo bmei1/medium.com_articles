@@ -139,7 +139,7 @@ class JSPageMiddleware(object):
 
     def process_request(self, request, spider):
         if spider.name == "medium":
-            # browser = webdriver.Chrome(executable_path="/Users/meibing/Desktop/search/ArticleSpider/chromedriver")
+            # browser = webdriver.Chrome(executable_path="/Users/meibing/Desktop/medium.com_articles/ArticleSpider/chromedriver")
             spider.browser.get(request.url)
             import time
             time.sleep(2)

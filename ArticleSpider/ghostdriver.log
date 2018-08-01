@@ -1,12 +1,5 @@
-[INFO  - 2018-08-01T01:41:35.460Z] GhostDriver - Main - running on port 53710
-[INFO  - 2018-08-01T01:41:36.202Z] Session [06eaf040-952c-11e8-96dd-3f2069778294] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-08-01T01:41:36.203Z] Session [06eaf040-952c-11e8-96dd-3f2069778294] - page.customHeaders:  - {}
-[INFO  - 2018-08-01T01:41:36.203Z] Session [06eaf040-952c-11e8-96dd-3f2069778294] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-08-01T01:41:36.203Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 06eaf040-952c-11e8-96dd-3f2069778294
-[ERROR - 2018-08-01T01:41:43.962Z] Session [06eaf040-952c-11e8-96dd-3f2069778294] - page.onError - msg: [LightStep:ERROR Tue Jul 31 2018 21:41:43 GMT-0400 (EDT)] Error in report: status code = 0 [object Object]
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-08-01T01:41:43.962Z] Session [06eaf040-952c-11e8-96dd-3f2069778294] - page.onError - stack:
-  tN (https://cdn-static-1.medium.com/_/fp/gen-js/main-base.bundle.8-oxlr4z2xcKG_ySt9LNnw.js:2266)
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-08-01T14:56:12.247Z] GhostDriver - Main - running on port 61085
+[INFO  - 2018-08-01T14:56:13.235Z] Session [08a4d5d0-959b-11e8-9f4c-0fd4796550c1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-01T14:56:13.235Z] Session [08a4d5d0-959b-11e8-9f4c-0fd4796550c1] - page.customHeaders:  - {}
+[INFO  - 2018-08-01T14:56:13.235Z] Session [08a4d5d0-959b-11e8-9f4c-0fd4796550c1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-08-01T14:56:13.235Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 08a4d5d0-959b-11e8-9f4c-0fd4796550c1

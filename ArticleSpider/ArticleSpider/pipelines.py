@@ -12,8 +12,6 @@ from scrapy.exporters import JsonItemExporter
 import MySQLdb
 import MySQLdb.cursors
 from twisted.enterprise import adbapi
-from ArticleSpider.models.es_types import ArticleType
-from elasticsearch_dsl.connections import connections
 
 
 class ArticlespiderPipeline(object):

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd39d19f-ec2f-45b0-b4e1-aa27d0f6f6aa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArticleSpider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/models/es_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/models/es_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArticleSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/ghostdriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url_list" beforeDir="false" afterPath="$PROJECT_DIR$/url_list" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +19,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ArticleSpider$medium.coverage" NAME="medium Coverage Results" MODIFIED="1532273511808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider/spiders" />
-    <SUITE FILE_PATH="coverage/ArticleSpider$main.coverage" NAME="main Coverage Results" MODIFIED="1533059959206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArticleSpider$main.coverage" NAME="main Coverage Results" MODIFIED="1533087692645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ArticleSpider$items.coverage" NAME="items Coverage Results" MODIFIED="1532667337599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ArticleSpider" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -32,7 +37,7 @@
           <entry key="cfg" value="3" />
           <entry key="jpg" value="15" />
           <entry key="json" value="11" />
-          <entry key="py" value="51" />
+          <entry key="py" value="65" />
           <entry key="sql" value="1" />
           <entry key="url_list" value="4" />
         </counts>
@@ -43,20 +48,20 @@
           <entry key="Ini" value="3" />
           <entry key="JSON" value="12" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="51" />
+          <entry key="Python" value="65" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5983" />
+          <entry key="py" value="6219" />
           <entry key="url_list" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="5972" />
+          <entry key="Python" value="6208" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -67,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArticleSpider/spiders/medium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+            <state relative-caret-position="207">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
                 <marker date="1533019928112" expanded="true" signature="539:544" ph="..." />
@@ -81,12 +86,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArticleSpider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-978">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="226">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
-                <marker date="1533022719011" expanded="true" signature="647:830" ph="..." />
-                <marker date="1533022719011" expanded="true" signature="1284:1529" ph="..." />
-                <marker date="1533022719011" expanded="true" signature="3987:3996" ph="..." />
+                <element signature="e#194#244#0" expanded="true" />
+                <marker date="1533070102067" expanded="true" signature="647:830" ph="..." />
+                <marker date="1533070102067" expanded="true" signature="1284:1529" ph="..." />
+                <marker date="1533070102067" expanded="true" signature="3987:3996" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,17 +101,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArticleSpider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="-245">
               <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ArticleSpider/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-3">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding>
                 <element signature="e#153#166#0" expanded="true" />
               </folding>
@@ -113,15 +119,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArticleSpider/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="148" column="28" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
+            <state relative-caret-position="229">
+              <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
               <folding>
                 <element signature="e#169#195#0" expanded="true" />
-                <marker date="1533059959190" expanded="true" signature="313:2757" ph="..." />
-                <marker date="1533059959190" expanded="true" signature="361:446" ph="..." />
+                <marker date="1533087637756" expanded="true" signature="313:2757" ph="..." />
+                <marker date="1533087637756" expanded="true" signature="361:446" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,11 +136,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArticleSpider/models/es_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="356">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <element signature="e#46#168#0" expanded="true" />
-                <marker date="1533023972673" expanded="true" signature="1057:1058" ph="..." />
               </folding>
             </state>
           </provider>
@@ -154,6 +159,9 @@
       <find>date</find>
       <find>pic_path</find>
       <find>ik_max_word</find>
+      <find>_doc_type</find>
+      <find>index</find>
+      <find>_doc_type.index</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ArticleSpider</dir>
@@ -171,10 +179,10 @@
         <option value="$PROJECT_DIR$/url_list" />
         <option value="$PROJECT_DIR$/ArticleSpider/spiders/medium.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/pipelines.py" />
-        <option value="$PROJECT_DIR$/ArticleSpider/items.py" />
-        <option value="$PROJECT_DIR$/ArticleSpider/models/es_types.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/settings.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/models/es_types.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/middlewares.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/items.py" />
       </list>
     </option>
   </component>
@@ -430,24 +438,10 @@
     <entry file="file://$PROJECT_DIR$/ArticleSpider/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/cssselect/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="426" selection-start-line="426" selection-end-line="426" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -488,13 +482,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/utils/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch_dsl/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article_export.json" />
     <entry file="file://$PROJECT_DIR$/url_list">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,13 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch_dsl/document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
@@ -626,17 +602,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch/connection/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch/connection/http_urllib3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch_dsl/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_vars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch_dsl/document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/search-tJSXZY1F/lib/python3.6/site-packages/elasticsearch/client/indices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6177">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="-204">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#194#244#0" expanded="true" />
+            <marker date="1533070102067" expanded="true" signature="647:830" ph="..." />
+            <marker date="1533070102067" expanded="true" signature="1284:1529" ph="..." />
+            <marker date="1533070102067" expanded="true" signature="3987:3996" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/utils/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1532657568197" expanded="true" signature="142:147" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/spiders/medium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+        <state relative-caret-position="207">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
             <marker date="1533019928112" expanded="true" signature="539:544" ph="..." />
@@ -645,54 +693,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/models/es_types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#46#168#0" expanded="true" />
-            <marker date="1533023972673" expanded="true" signature="1057:1058" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#153#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-978">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <marker date="1533022719011" expanded="true" signature="647:830" ph="..." />
-            <marker date="1533022719011" expanded="true" signature="1284:1529" ph="..." />
-            <marker date="1533022719011" expanded="true" signature="3987:3996" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="-245">
           <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="148" column="28" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
+        <state relative-caret-position="229">
+          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
           <folding>
             <element signature="e#169#195#0" expanded="true" />
-            <marker date="1533059959190" expanded="true" signature="313:2757" ph="..." />
-            <marker date="1533059959190" expanded="true" signature="361:446" ph="..." />
+            <marker date="1533087637756" expanded="true" signature="313:2757" ph="..." />
+            <marker date="1533087637756" expanded="true" signature="361:446" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/models/es_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#153#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
